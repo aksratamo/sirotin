@@ -24,6 +24,6 @@ To create your own 2 command configuration, just fork this project.
 
 To apply your states without one-time installation steps, './highstate.sh'. 
 
-Copyright 2018 Tero Karvinen http://TeroKarvinen.com
-GPL 3
+Copyright 2018 Tero Karvinen http://TeroKarvinen.com GPL 3
 
+Original Sirotin https://github.com/terokarvinen/sirotin
