@@ -1,3 +1,4 @@
+#test
 deskapps:
   pkg.installed:
     - pkgs:
