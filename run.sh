@@ -1,7 +1,7 @@
 #!/bin/bash
 # Copyright 2018 Tero Karvinen http://TeroKarvinen.com GPL 3
 
-echo "Sirotin Live USB configuration Starting... terokarvinen/sirotin"
+echo "Sirotin Live USB configuration Starting... aksratamo/sirotin"
 set -o verbose
 
 echo "Installing Salt and Git..."
