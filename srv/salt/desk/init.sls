@@ -1,13 +1,13 @@
 deskapps:
   pkg.installed:
-    - pkgs: 
-      - screen
-      - vlc
-      - curl
-      - httpie
-      - gedit
+    - pkgs:
+      - htop
       - tree
-      - openssh-client
-      - autossh
+      - neofetch
+      - keepassxc
+      - firefox
 
 
+/etc/firefox/syspref.js:
+   file.managed:
+- source: salt://linux_apps/syspref.js
