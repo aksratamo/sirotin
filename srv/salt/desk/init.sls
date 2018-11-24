@@ -10,4 +10,4 @@ deskapps:
 
 /etc/firefox/syspref.js:
    file.managed:
-- source: salt://linux_apps/syspref.js
+    - source: salt://linux_apps/syspref.js
