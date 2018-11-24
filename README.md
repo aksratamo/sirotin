@@ -8,7 +8,7 @@ Boot a Xubuntu live USB.
 
 Open a terminal with ugly-T. 
 
-	wget https://raw.githubusercontent.com/terokarvinen/sirotin/master/run.sh
+	wget https://raw.githubusercontent.com/aksratamo/sirotin/master/run.sh
 	bash run.sh
 	 
 
