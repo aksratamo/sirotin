@@ -9,7 +9,7 @@ sudo apt-get update
 sudo apt-get -y install git salt-minion
 
 echo "Retrieving and Applying Settings..."
-echo -e "master: localhost\nid: localminion" | sudo tee /etc/salt/minion
+echo -e "master: localhost\nid: localminion\nfile_client: local" | sudo tee /etc/salt/minion
 git clone https://github.com/aksratamo/sirotin.git
 cd sirotin/
 ./highstate.sh
